@@ -1,0 +1,19 @@
+{
+  "entity": "socios",
+  "pattern": "*SOCIOCSV*",
+  "delimiter": ";",
+  "encoding": "latin-1",
+  "columns": [
+    {"name": "cnpj_basico", "type": "string"},
+    {"name": "identificador_socio", "type": "string"},
+    {"name": "nome_socio", "type": "string"},
+    {"name": "cnpj_cpf_socio", "type": "string"},
+    {"name": "qualificacao_socio", "type": "string"},
+    {"name": "data_entrada_sociedade", "type": "string"},
+    {"name": "pais", "type": "string"},
+    {"name": "representante_legal", "type": "string"},
+    {"name": "nome_representante", "type": "string"},
+    {"name": "qualificacao_representante", "type": "string"},
+    {"name": "faixa_etaria", "type": "string"}
+  ]
+}

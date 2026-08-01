@@ -1,0 +1,29 @@
+paths:
+  raw_dir: "data/raw"
+  extracted_dir: "data/extracted"
+  parquet_dir: "data/parquet"
+  temp_dir: "data/temp"
+
+processing:
+  encoding: "latin-1"
+  delimiter: ";"
+  batch_size: 100000
+  compression: "zstd"
+
+logging:
+  level: "INFO"
+  path: "logs/pipeline.log"
+
+duckdb:
+  database_path: "data/receita.duckdb"
+
+entities:
+  empresas:
+    pattern: "*EMPRECSV*"
+    schema_ref: "schemas/empresas.json"
+  socios:
+    pattern: "*SOCIOCSV*"
+    schema_ref: "schemas/socios.json"
+  estabelecimentos:
+    pattern: "*ESTABELE*"
+    schema_ref: "schemas/estabelecimentos.json"

@@ -1,0 +1,15 @@
+{
+  "entity": "empresas",
+  "pattern": "*EMPRECSV*",
+  "delimiter": ";",
+  "encoding": "latin-1",
+  "columns": [
+    {"name": "cnpj_basico", "type": "string"},
+    {"name": "razao_social", "type": "string"},
+    {"name": "natureza_juridica", "type": "string"},
+    {"name": "qualificacao_responsavel", "type": "string"},
+    {"name": "capital_social", "type": "string"},
+    {"name": "porte_empresa", "type": "string"},
+    {"name": "ente_federativo_responsavel", "type": "string"}
+  ]
+}
